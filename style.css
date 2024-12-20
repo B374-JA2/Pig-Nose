@@ -1,0 +1,24 @@
+body {
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position:cover;
+    background-image:url("pretty-background.jpg");
+    background-attachment: fixed;
+}
+.h3style {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+canvas {
+    /*border: 3px dashed lightcoral;*/
+    animation-name:grant;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes grant{
+    0% {box-shadow: 1px 1px 35px rgb(210, 81, 81);}
+    50% {box-shadow: 1px 1px 35px rgb(234, 132, 92);}
+    100% {box-shadow: 1px 1px 35px rgb(252, 252, 97)}
+}
